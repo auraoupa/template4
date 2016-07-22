@@ -1,0 +1,272 @@
+---
+---
+$brand-primary: #{{site.color.primary}};
+$brand-secondary: #{{site.color.secondary}};
+$font-size-base: 17px;
+$font-family-sans-serif:  "Nunito", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-sans-serif-heading: "Muli", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$navbar-height: 60px;
+$grey-color:       #828282;
+
+@import "bootstrap";
+@import "bootstrap/mixins";
+
+@mixin border-bottom($color) {
+    border-bottom: 1px solid $color;
+}
+
+body {
+    margin-top: $navbar-height;
+}
+
+.fa-5x {
+    font-size: 5em;
+}
+
+.fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+}
+
+*::before, *::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/* Icon */
+
+    .icon {
+        position: relative;
+        text-decoration: none;
+    }
+
+        .icon:before {
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-font-smoothing: antialiased;
+            font-family: FontAwesome;
+            font-style: normal;
+            font-weight: normal;
+            text-transform: none !important;
+        }
+
+        .icon > .label {
+            display: none;
+        }
+
+        .icon.major {
+            text-align: center;
+            cursor: default;
+            background-color: #37c0fb;
+            background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
+            background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
+            background-image: -o-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
+            background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
+            background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
+            color: white;
+            border-radius: 100%;
+            display: inline-block;
+            width: 5em;
+            height: 5em;
+            line-height: 5em;
+            box-shadow: 0 0 0 7px white, 0 0 0 8px #e0e0e0;
+            margin: 0 0 2em 0;
+        }
+
+            .icon.major:before {
+                font-size: 36px;
+            }
+
+/*
+********* Navbar *********
+*/
+.navbar {
+    .navbar-brand {
+        font-size: $font-size-base;
+        text-align: center;
+        padding: 5px 5px 5px 10px;
+
+    .navbar-brand-heading {
+            font-family: $font-family-sans-serif-heading;
+            padding-bottom: 2px;
+            margin: 2px;
+            @include border-bottom($brand-primary);
+        }
+    }
+}
+/* Icon */
+
+    .icon {
+        position: relative;
+        text-decoration: none;
+    }
+
+        .icon:before {
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-font-smoothing: antialiased;
+            font-family: FontAwesome;
+            font-style: normal;
+            font-weight: normal;
+            text-transform: none !important;
+        }
+
+        .icon > .label {
+            display: none;
+        }
+
+        .icon.major {
+            text-align: center;
+            cursor: default;
+            background-color: #37c0fb;
+            background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
+            background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
+            background-image: -o-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
+            background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
+            background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
+            color: white;
+            border-radius: 100%;
+            display: inline-block;
+            width: 5em;
+            height: 5em;
+            line-height: 5em;
+            box-shadow: 0 0 0 7px white, 0 0 0 8px #e0e0e0;
+            margin: 0 0 2em 0;
+        }
+
+            .icon.major:before {
+                font-size: 36px;
+            }
+
+/*
+********* Welcome *********
+*/
+#welcome {
+    .welcome-banner {
+        @include make-lg-column(12);
+        margin-bottom: 25px;
+
+        .welcome-banner-heading {
+            font-family: $font-family-sans-serif-heading;
+            text-align: center;
+            padding-bottom: 5px;
+            @include border-bottom($brand-primary);
+        }
+    }
+
+    .welcome-item {
+        max-width: 350px;
+        text-align: center;
+
+        .welcome-title {
+            font-family: $font-family-sans-serif-heading;
+            margin: 10px;
+            padding-bottom: 5px;
+            @include border-bottom($brand-secondary);
+        }
+    }
+}
+
+/*
+********* Bio *********
+*/
+
+#bio {
+    .panel {
+        border: none;
+    }
+
+    .thumbnail {
+        margin-top: 25px;
+        max-width: 250px;
+    }
+    
+    .bio-heading {
+        @include border-bottom($brand-primary);
+    }
+}
+
+/*
+********* People *********
+*/
+#people {
+    .panel {
+        border: none;
+        @include box-shadow(0 0 0 rgba(0,0,0,0));
+        margin: 0px 10px 0px 10px;
+        min-height: 295px;
+        max-height: 295px;
+    }
+    
+    .panel-body {
+        padding: 0px 3px 0px 3px;
+    }
+
+    .thumbnail {
+        margin-top: 20px;
+        max-width: 150px;
+    }
+
+    .person-name {
+        padding-bottom: 5px;
+        @include border-bottom($brand-primary);
+    }
+}
+
+/*
+********* Research *********
+*/
+#research {
+    .container {
+        padding-top: 40px;
+    }
+
+    .research-heading {
+        font-family: $font-family-sans-serif-heading;        
+    }
+    
+    .row {
+        margin-top: 2 * $line-height-computed;
+    }
+
+    .recent-publications {
+        margin-top: $line-height-computed;
+    }
+
+    img, video {
+        min-height: 300px;
+        max-height: 300px;
+    }
+
+    #research-threat-protection img,video {
+        max-height: 250px;
+    }
+}
+
+/*
+********* Publications *********
+*/
+#publications {
+    .publications-header {
+        margin-bottom: $line-height-computed;
+    }
+}
+
+/*
+********* Contact *********
+*/
+
+#contact {
+    .campus-map {
+        margin-top: 25px;
+        max-height: 300px;
+    }
+}
+
+/*
+********* Footer *********
+*/
+#footer {
+    margin-top: 25px;
+}

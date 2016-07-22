@@ -1,0 +1,16 @@
+url: 
+baseurl: 
+
+title: MEOM Research Group
+
+color:
+    primary: 2196F3
+    secondary: 9E9E9E
+
+sass:
+    style: compressed
+
+markdown: kramdown
+permalink: pretty
+
+exclude: ["README.md"]

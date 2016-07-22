@@ -1,0 +1,56 @@
+{% assign current = page.url | downcase | split: '/' %}
+{% assign researchDropdownClass = '' %}
+{% if current[1] == 'research' %}{% assign researchDropdownClass = 'page-scroll' %}{% endif %}
+  
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="{{site.baseurl}}/"><p class="navbar-brand-heading">{{site.title}}</p><p><small>LGGE, Université Grenoble Alpes</small></p></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="hidden">
+                    <a href="{{site.baseurl}}/" class="{{current}}"></a>
+                </li>
+                <li {% if current[1] == 'about' %}class='active'{% endif %}>
+                    <a href="{{site.baseurl}}/about/">About</a>
+                </li>
+                <li {% if current[1] == 'people' %}class='active'{% endif %}>
+                    <a href="{{site.baseurl}}/people/">People</a>
+                </li>
+                <li class="dropdown {% if current[1] == 'projects' %}active{% endif %}">
+                  <a href="{{site.baseurl}}/projects/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="{% if current[1] != 'projects' %}{{site.baseurl}}/projects{% endif %}#atlantos" class={{researchDropdownClass}}>Atlantos</a></li>
+                    <li><a href="{% if current[1] != 'projects' %}{{site.baseurl}}/projects{% endif %}#drakkar" class={{researchDropdownClass}}>Drakkar</a></li>
+                    <li><a href="{% if current[1] != 'projects' %}{{site.baseurl}}/projects{% endif %}#geoocapi" class={{researchDropdownClass}}>Geo-OCAPI</a></li>
+                  </ul>
+                </li>
+                <li {% if current[1] == 'code' %}class='active'{% endif %}>
+                    <a href="{{site.baseurl}}/code/">Code</a>
+                </li>
+                <li {% if current[1] == 'publications' %}class='active'{% endif %}>
+                    <a href="{{site.baseurl}}/publications/">Publications</a>
+                </li>
+                <li {% if current[1] == 'news' %}class='active'{% endif %}>
+                    <a href="{{site.baseurl}}/news/">News</a>
+                </li>
+                <li {% if current[1] == 'contact' %}class='active'{% endif %}>
+                    <a href="{{site.baseurl}}/contact/">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
