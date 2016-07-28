@@ -1,6 +1,6 @@
 <div class="container" id="welcome">
     <div class="welcome-banner">
-        <h2 class="welcome-banner-heading">MEOM an oceanography research group</h2>
+        <h2 class="welcome-banner-heading">MEOM a computational oceanography research group at IGE</h2>
         <p>Cognitis enim pilatorum caesorumque funeribus nemo deinde ad has stationes appulit navem, sed ut Scironis praerupta letalia declinantes litoribus Cypriis contigui navigabant, quae Isauriae scopulis sunt controversa.</p>
     </div>
     <div class="container">
@@ -8,18 +8,51 @@
             <div class="col-sm-4 text-center">
                 <h3> <i class="fa fa-cog fa-5x"></i><br> Our Projects</h3>
                 <p></p>
-                <a class="btn btn-lg btn-warning" href="about/#projects">See our team</a>
+                <a class="btn btn-lg btn-info" href="projects">Learn more</a>
             </div>
             <div class="col-sm-4 text-center">
                 <h3> <i class="fa fa-group fa-5x"></i><br> Who we are</h3>
                 <p></p>
-                <a class="btn btn-lg btn-warning" href="about/#people">See our team</a>
+                <a class="btn btn-lg btn-warning" href="people">See our team</a>
             </div>
             <div class="col-sm-4 text-center">
                 <h3> <i class="fa fa-book fa-5x"></i><br> Publications</h3>
-                <p>Browse our most recent articles</p>
+                <p></p>
                 <a class="btn btn-lg btn-success" href="publications/">Explore</a>
             </div>
         </div>
     </div>
+
+    <div class="welcome-banner">
+        <h2 class="welcome-banner-heading"></h2>
+    </div>
+    <div class="welcome-banner">
+        <h2> Recent News </h2>
+    </div>
+
+    <div class="container">
+         <div class="row">
+            <div class="col-sm-4 text-center">
+                <div class="box post">
+                    <div class="image left">
+                        <img src="" alt="">
+                    </div>
+                    <div class="inner">
+
+                            {% for post in site.news %}
+                                <div class="list-item">
+                                    <h3 class="list-post-title">
+                                        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> - <em> <time>{{ post.date | date_to_string }}</time> </em>
+                                    </h3>
+                            {% endfor %}
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
 </div>
+

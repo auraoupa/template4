@@ -1,3 +1,8 @@
-## New template for a website
+MEOM Group Website
+=================
 
-http://auraoupa.github.io/template4
+Source code for the MEOM group website. The site can be viewed at: 
+
+Contact
+-------
+  * 

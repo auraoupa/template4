@@ -6,43 +6,33 @@
             <li data-target="#carousel-generic" data-slide-to="1"></li>
             <li data-target="#carousel-generic" data-slide-to="2"></li>
             <li data-target="#carousel-generic" data-slide-to="3"></li>
+            <li data-target="#carousel-generic" data-slide-to="4"></li>
         </ol>
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <img src="{{site.baseurl}}/assets/img/carousel/black-and-white.jpeg"alt="">
-            </div>
-            <div class="item">
-                <img src="{{site.baseurl}}/assets/img/carousel/north-atlantic.jpeg"alt="">
+                <img src="{{site.baseurl}}/assets/img/carousel/north-atlantic.jpeg" alt="">
                 <div class="container">
                 <div class="carousel-caption">
-                    <h2 align="left">Unravelling ocean fine scales motions</h2>
-                    <p class="lead" align="left">Unravelling ocean fine scales motions</p>
+                    <h2 align="left">MEOM a computational oceanography research group at IGE</h2>
+                    <p class="lead" align="left"></p>
                     <a class="btn btn-lg btn-primary" href="about/" align="left">Learn more</a>
                 </div>
                 </div>
             </div>
+            {% for topic in site.data.carousel %}
             <div class="item">
-                <img src="{{site.baseurl}}/assets/img/carousel/north-atlantic.jpeg"alt="">
+                <img src="{{site.baseurl}}/{{topic.pic}}" alt="">
                 <div class="container">
                 <div class="carousel-caption">
-                    <h2 align="left">Forecasting oceanic motions and their uncertainties</h2>
-                    <p class="lead" align="left">Forecasting oceanic motions and their uncertainties</p>
-                    <a class="btn btn-lg btn-primary" href="about/">Learn more</a>
+                    <h2 align="left">{{topic.title}}</h2>
+                    <p class="lead" align="left">{{topic.text}}</p>
+                    <a class="btn btn-lg btn-primary" href="{{topic.link}}" align="left">Learn more</a>
                 </div>
                 </div>
             </div>
-            <div class="item">
-                <img src="{{site.baseurl}}/assets/img/carousel/north-atlantic.jpeg"alt="">
-                <div class="container">
-                <div class="carousel-caption">
-                    <h2 align="left">Understanding the ocean role in the climate machinery</h2>
-                    <p class="lead" align="left">Understanding the ocean role in the climate machinery</p>
-                    <a class="btn btn-lg btn-primary" href="about/">Learn more</a>
-                </div>
-                </div>
-            </div>
+            {% endfor %}
         </div>
 
         <!-- Controls -->
