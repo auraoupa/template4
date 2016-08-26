@@ -13,15 +13,17 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <img style="height:278px" src="{{site.baseurl}}/assets/img/carousel/meom2.png" alt="">
+                <!--<img style="height:340px" src="{{site.baseurl}}/assets/img/carousel/meom2.png" srcset="{{site.baseurl}}/assets/img/carousel/meom2s.png 250w, {{site.baseurl}}/assets/img/carousel/meom2m.png 500w, {{site.baseurl}}/assets/img/carousel/meom2g.png 1000w, {{site.baseurl}}/assets/img/carousel/meom2.png 2052w" alt=""> -->
+                <div style="height:273px;width:1650px;overflow:hidden"> <img style="width:100%" src="{{site.baseurl}}/assets/img/carousel/meom2.png" alt=""> </div>
                 <div class="carousel-caption">
+
                     <p class="lead" align="left" >MEOM a computational oceanography research group at IGE</p>
                     <a class="btn btn-lg btn-primary" href="about/" align="left">Learn more</a>
                 </div>
             </div>
             {% for topic in site.data.carousel %}
             <div class="item">
-                <img  style="height:278px"src="{{site.baseurl}}/{{topic.pic}}" alt="">
+                <div style="height:273px;width:1650px;overflow:hidden"> <img style="width:100%" src="{{site.baseurl}}/{{topic.pic}}" alt=""> </div>
                 <div class="carousel-caption">
                     <h2 align="left" style="color:{{topic.colorf}}" style="background:{{topic.colorb}}" >{{topic.title}}</h2>
                     <p class="lead" align="left" style="color:{{topic.colorf}}"> <span style="background:{{topic.colorb}}">{{topic.text}}</span></p>
