@@ -13,23 +13,19 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <img class="img-responsive img-centered" src="{{site.baseurl}}/assets/img/carousel/meom2.png" alt="">
-                <div class="container">
+                <img style="height:278px" src="{{site.baseurl}}/assets/img/carousel/meom2.png" alt="">
                 <div class="carousel-caption">
                     <p class="lead" align="left" >MEOM a computational oceanography research group at IGE</p>
                     <a class="btn btn-lg btn-primary" href="about/" align="left">Learn more</a>
                 </div>
-                </div>
             </div>
             {% for topic in site.data.carousel %}
             <div class="item">
-                <img class="img-responsive img-centered" src="{{site.baseurl}}/{{topic.pic}}" alt="">
-                <div class="container">
+                <img  style="height:278px"src="{{site.baseurl}}/{{topic.pic}}" alt="">
                 <div class="carousel-caption">
                     <h2 align="left" style="color:{{topic.colorf}}" style="background:{{topic.colorb}}" >{{topic.title}}</h2>
                     <p class="lead" align="left" style="color:{{topic.colorf}}"> <span style="background:{{topic.colorb}}">{{topic.text}}</span></p>
                     <a class="btn btn-lg btn-primary" href="{{topic.link}}" align="left">Learn more</a>
-                </div>
                 </div>
             </div>
             {% endfor %}
