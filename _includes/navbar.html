@@ -29,10 +29,9 @@
                     <a href="{{site.baseurl}}/people/">People</a>
                 </li>
                 <li class="dropdown {% if current[1] == 'projects' %}active{% endif %}">
-                  <a href="{{site.baseurl}}/projects/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
+                  <a href="{{site.baseurl}}/projects" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Projects <span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="{% if current[1] != 'projects' %}{{site.baseurl}}/projects{% endif %}" class={{researchDropdownClass}}>All projects</a></li>
-                    <li><a href="{% if current[1] != 'projects' %}{{site.baseurl}}/projects{% endif %}#atlantos" class={{researchDropdownClass}}>Atlantos</a></li>
+                    <li><a href="{% if current[1] != 'projects' %}{{site.baseurl}}/projects/sobums{% endif %}" class={{researchDropdownClass}}>Sobums</a></li>
                     <li><a href="{% if current[1] != 'projects' %}{{site.baseurl}}/projects{% endif %}#drakkar" class={{researchDropdownClass}}>Drakkar</a></li>
                     <li><a href="{% if current[1] != 'projects' %}{{site.baseurl}}/projects{% endif %}#geoocapi" class={{researchDropdownClass}}>Geo-OCAPI</a></li>
                   </ul>
@@ -41,10 +40,13 @@
                     <a href="{{site.baseurl}}/code/">Code</a>
                 </li>
                 <li {% if current[1] == 'publications' %}class='active'{% endif %}>
-                    <a href="http://lgge.osug.fr/meom/Publications/index.html.fr">Publications</a>
+                    <a href="{{site.baseurl}}/publications/">Publications</a>
                 </li>
                 <li {% if current[1] == 'news' %}class='active'{% endif %}>
                     <a href="{{site.baseurl}}/news/">News</a>
+                </li>
+                <li {% if current[1] == 'jobs' %}class='active'{% endif %}>
+                    <a href="{{site.baseurl}}/jobs/">Job Offers</a>
                 </li>
                 <li {% if current[1] == 'contact' %}class='active'{% endif %}>
                     <a href="{{site.baseurl}}/contact/">Contact</a>

@@ -7,27 +7,27 @@
             <li data-target="#carousel-generic" data-slide-to="2"></li>
             <li data-target="#carousel-generic" data-slide-to="3"></li>
             <li data-target="#carousel-generic" data-slide-to="4"></li>
+            <li data-target="#carousel-generic" data-slide-to="5"></li>
         </ol>
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <img src="{{site.baseurl}}/assets/img/carousel/north-atlantic.jpeg" alt="">
+                <img class="img-responsive img-centered" src="{{site.baseurl}}/assets/img/carousel/meom2.png" alt="">
                 <div class="container">
                 <div class="carousel-caption">
-                    <h2 align="left">MEOM a computational oceanography research group at IGE</h2>
-                    <p class="lead" align="left"></p>
+                    <p class="lead" align="left" >MEOM a computational oceanography research group at IGE</p>
                     <a class="btn btn-lg btn-primary" href="about/" align="left">Learn more</a>
                 </div>
                 </div>
             </div>
             {% for topic in site.data.carousel %}
             <div class="item">
-                <img src="{{site.baseurl}}/{{topic.pic}}" alt="">
+                <img class="img-responsive img-centered" src="{{site.baseurl}}/{{topic.pic}}" alt="">
                 <div class="container">
                 <div class="carousel-caption">
-                    <h2 align="left">{{topic.title}}</h2>
-                    <p class="lead" align="left">{{topic.text}}</p>
+                    <h2 align="left" style="color:{{topic.colorf}}" style="background:{{topic.colorb}}" >{{topic.title}}</h2>
+                    <p class="lead" align="left" style="color:{{topic.colorf}}"> <span style="background:{{topic.colorb}}">{{topic.text}}</span></p>
                     <a class="btn btn-lg btn-primary" href="{{topic.link}}" align="left">Learn more</a>
                 </div>
                 </div>
