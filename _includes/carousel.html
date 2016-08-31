@@ -14,7 +14,14 @@
         <div class="carousel-inner" role="listbox">
             <div class="item active">
                 <!--<img style="height:340px" src="{{site.baseurl}}/assets/img/carousel/meom2.png" srcset="{{site.baseurl}}/assets/img/carousel/meom2s.png 250w, {{site.baseurl}}/assets/img/carousel/meom2m.png 500w, {{site.baseurl}}/assets/img/carousel/meom2g.png 1000w, {{site.baseurl}}/assets/img/carousel/meom2.png 2052w" alt=""> -->
+                <div class="imgcar"> 
+                    <img style="width:100%" src="{{site.baseurl}}/assets/img/carousel/meom2.png" srcset="{{site.baseurl}}/assets/img/carousel/meom2s.png 250w, {{site.baseurl}}/assets/img/carousel/meom2m.png 500w, {{site.baseurl}}/assets/img/carousel/meom2g.png 1000w, {{site.baseurl}}/assets/img/carousel/meom2.png 2052w" alt="">
+                </div>
+                
+                <!--{% if  screen.width <= 1650 %}
                 <div style="height:273px;width:1650px;overflow:hidden"> <img style="width:100%" src="{{site.baseurl}}/assets/img/carousel/meom2.png" alt=""> </div>
+                {% endif %}-->
+
                 <div class="carousel-caption">
 
                     <p class="lead" align="left" >MEOM a computational oceanography research group at IGE</p>
@@ -23,7 +30,9 @@
             </div>
             {% for topic in site.data.carousel %}
             <div class="item">
-                <div style="height:273px;width:1650px;overflow:hidden"> <img style="width:100%" src="{{site.baseurl}}/{{topic.pic}}" alt=""> </div>
+                <div class="imgcar"> 
+                    <img style="width:100%" src="{{site.baseurl}}/{{topic.pic}}" srcset="{{site.baseurl}}/{{topic.pics}} 250w, {{site.baseurl}}/{{topic.picm}} 500w, {{site.baseurl}}/{{topic.picg}} 1000w, {{site.baseurl}}/{{topic.pic}} 2052w" alt="">
+                </div>
                 <div class="carousel-caption">
                     <h2 align="left" style="color:{{topic.colorf}}" style="background:{{topic.colorb}}" >{{topic.title}}</h2>
                     <p class="lead" align="left" style="color:{{topic.colorf}}"> <span style="background:{{topic.colorb}}">{{topic.text}}</span></p>

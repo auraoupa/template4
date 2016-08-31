@@ -426,3 +426,16 @@ body {
             text-align: center;
             font-size: 0.9em;
         }
+
+
+.imgcar {height:340px;width:250px;overflow:hidden;}
+@media (min-width:250px) {
+    .imgcar {height:340px;width:500px;overflow:hidden;}
+    }
+@media (min-width:500px) {
+    .imgcar {height:340px;width:1000px;overflow:hidden;}
+    }
+@media (min-width:1000px) {
+    .imgcar {height:340px;width:2052px;overflow:hidden;}
+    }
+  
