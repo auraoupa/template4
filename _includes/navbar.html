@@ -19,9 +19,6 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                <li class="hidden">
-                    <a href="{{site.baseurl}}/" class="{{current}}"></a>
-                </li>
                 <li {% if current[1] == 'about' %}class='active'{% endif %}>
                     <a href="{{site.baseurl}}/about/">About</a>
                 </li>
@@ -31,9 +28,9 @@
                 <li class="dropdown {% if current[1] == 'projects' %}active{% endif %}">
                   <a href="{{site.baseurl}}/projects" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Projects <span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="{% if current[1] != 'projects' %}{{site.baseurl}}/projects/sobums{% endif %}" class={{researchDropdownClass}}>Sobums</a></li>
-                    <li><a href="{% if current[1] != 'projects' %}{{site.baseurl}}/projects{% endif %}#drakkar" class={{researchDropdownClass}}>Drakkar</a></li>
-                    <li><a href="{% if current[1] != 'projects' %}{{site.baseurl}}/projects{% endif %}#geoocapi" class={{researchDropdownClass}}>Geo-OCAPI</a></li>
+                    <li><a href="{{site.baseurl}}/projects/sobums" class={{researchDropdownClass}}>Sobums</a></li>
+                    <li><a href="{{site.baseurl}}/projects#drakkar" class={{researchDropdownClass}}>Drakkar</a></li>
+                    <li><a href="{{site.baseurl}}/projects#geoocapi" class={{researchDropdownClass}}>Geo-OCAPI</a></li>
                   </ul>
                 </li>
                 <li {% if current[1] == 'code' %}class='active'{% endif %}>
@@ -43,7 +40,7 @@
                     <a href="{{site.baseurl}}/publications/">Publications</a>
                 </li>
                 <li {% if current[1] == 'news' %}class='active'{% endif %}>
-                    <a href="{{site.baseurl}}/news/">News</a>
+                    <a href="{{site.baseurl}}/blog/">News</a>
                 </li>
                 <li {% if current[1] == 'jobs' %}class='active'{% endif %}>
                     <a href="{{site.baseurl}}/jobs/">Job Offers</a>

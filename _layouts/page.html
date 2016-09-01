@@ -24,7 +24,9 @@ layout: default
 
                         {{ page.content }}
 
-
+                        {% if page.link %} 
+                            <p class="date"> <a href="{{page.link}}"> En savoir plus </a> </p>
+                        {% endif %}
                     </div>
                 </div>
             </div>

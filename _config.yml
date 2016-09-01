@@ -1,7 +1,8 @@
 url: https://auraoupa.github.io
-baseurl: https://auraoupa.github.io/template4
+baseurl: /template4
 
 title: MEOM Research Group
+description: Research activities and news of the MEOM Group
 
 color:
     primary: 2196F3

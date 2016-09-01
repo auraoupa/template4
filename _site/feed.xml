@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MEOM Research Group</title>
+    <description>Research activities and news of the MEOM Group</description>
+    <link>https://auraoupa.github.io/template4/</link>
+    <atom:link href="https://auraoupa.github.io/template4/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 01 Sep 2016 15:14:57 +0200</pubDate>
+    <lastBuildDate>Thu, 01 Sep 2016 15:14:57 +0200</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>DRAKKAR 2016 Annual Workshop</title>
+        <description>&lt;p&gt;The overall objective is to review the scientific and technical progresses achieved with the DRAKKAR hierarchy of model configurations based on the NEMO platform, identify strengths and weaknesses of these models, and discuss key model improvements and new developments that are needed for the future. The workshop is open to contributed talks from participants, but high priority is given to discussions. Speakers are encouraged to present their most recent results or ongoing research. Candid presentations of &quot;things that do not work&quot; in the numerical simulations are welcomed, because they foster interesting discussions and contribute to the progress of the modelling community.  &lt;/p&gt;
+</description>
+        <pubDate>Mon, 25 Jan 2016 00:00:00 +0100</pubDate>
+        <link>https://auraoupa.github.io/template4/2016/01/25/drakkar-annual-workshop/</link>
+        <guid isPermaLink="true">https://auraoupa.github.io/template4/2016/01/25/drakkar-annual-workshop/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Journées &quot;MEOM au VERT&quot;</title>
+        <description>&lt;p&gt; Journées &quot;MEOM au VERT&quot;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 10 Sep 2015 00:00:00 +0200</pubDate>
+        <link>https://auraoupa.github.io/template4/2015/09/10/meom-au-vert/</link>
+        <guid isPermaLink="true">https://auraoupa.github.io/template4/2015/09/10/meom-au-vert/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Intrinsic Ocean Variability Science Day</title>
+        <description>&lt;p&gt;Intrinsic Ocean Variability Science Day&lt;/p&gt;
+</description>
+        <pubDate>Thu, 15 Jan 2015 00:00:00 +0100</pubDate>
+        <link>https://auraoupa.github.io/template4/2015/01/15/intrinsic-variability-science-day/</link>
+        <guid isPermaLink="true">https://auraoupa.github.io/template4/2015/01/15/intrinsic-variability-science-day/</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
