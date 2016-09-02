@@ -89,6 +89,10 @@ layout: default
                                 {% if person.email %}
                                 <p><img class="img-responsive" src="{{site.baseurl}}/assets/img/people/{{person.email}}" ></p>
                                 {% endif %}
+
+                                {% if person.website %}
+                                <p><a href="{{person.website}}"> website</a></p>
+                                {% endif %}
                             </div>
                         </div>
                     </div>
