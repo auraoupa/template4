@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: pagemd
 title: Job Offers
 permalink: /jobs/
 ---
