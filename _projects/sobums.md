@@ -1,7 +1,9 @@
 ---
-layout: pagemd
 title: SOBUMS
-permalink: /projects/sobums/
+featured: 
+layout: page
+link: 
+url: {{site.baseurl}}/all_projects/sobums/index.html
 ---
 
 The Southern Ocean (oceans south of 30°S) plays a key role in global biogeochemical cycles. But large environmental changes are ongoing in the Southern Ocean physical and biogeochemical properties. These changes reflect widespread environmental changes that are occurring throughout the southern hemisphere and over the Southern Ocean (changes in surface winds, solar radiation, sea ice cover and glacial melt from Antarctica). How the Southern Ocean primary production and carbon cycle will respond to these changing climate stressors is a matter of concern in the climate science community.
@@ -27,6 +29,3 @@ Over the next 4 years, the project will fund :
  - a postdoc at LOCEAN (Paris) for 24 months
 
 Do not hesitate to contact us for more information about these future positions. 
-
-
-
