@@ -11,6 +11,9 @@ This role of ocean circulation in the climate machinery is tied to a range of sc
 
 These fine-scale eddies and narrow boundary currents are poorly observed and are not represented in the climate prediction models used for the IPCC assessment. Their associated non- linear contributions on larger scales are consequently unknown, raising issues concerning the possible role of the fine-scale ocean turbulence in climate. Our challenge is to understand the **interaction mechanisms** between the ocean **fine-scale ocean processes and ocean variability at larger-scale**.
 
+<img class="img-responsive img-centered" src="https://auraoupa.github.io/template4/assets/img/DRAKKAR-ORCA12.png" alt=""/>
+*Figure 1 : Snapshot of the current speed …the 1/12° global ORCA12 model …*
+
 In the MEOM group, we tackle this question with comprehensive ocean circulation models. **Why a modelling approach?** Since observations at eddy scales are much too sparse to address these complex issues, high-resolution ocean simulations are the only possible way to proceed, but such an approach requires a consistent framework in which the scale interactions can be quantified, allowing a true assessment and improvement of the parameterizations in climate prediction models. 
 
 
