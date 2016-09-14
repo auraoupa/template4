@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: pagemd
 title: Scientific software
-permalink: /code
+permalink: /code/
 ---
 
 
