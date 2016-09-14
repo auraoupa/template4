@@ -25,6 +25,12 @@
                 <li {% if current[1] == 'people' %}class='active'{% endif %}>
                     <a href="{{site.baseurl}}/people/">People</a>
                 </li>
+                <li {% if current[1] == 'code' %}class='active'{% endif %}>
+                    <a href="{{site.baseurl}}/code/">Code</a>
+                </li>
+                <li {% if current[1] == 'data' %}class='active'{% endif %}>
+                    <a href="{{site.baseurl}}/data/">Data</a>
+                </li>
                 <li class="dropdown {% if current[1] == 'projects' %}active{% endif %}">
                   <a href="{{site.baseurl}}/projects" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Projects <span class="caret"></span></a>
                   <ul class="dropdown-menu">
@@ -33,17 +39,14 @@
                     <li><a href="{{site.baseurl}}/projects#geoocapi" class={{researchDropdownClass}}>Geo-OCAPI</a></li>
                   </ul>
                 </li>
-                <li {% if current[1] == 'code' %}class='active'{% endif %}>
-                    <a href="{{site.baseurl}}/code/">Code</a>
-                </li>
                 <li {% if current[1] == 'publications' %}class='active'{% endif %}>
                     <a href="{{site.baseurl}}/publications/">Publications</a>
                 </li>
-                <li {% if current[1] == 'news' %}class='active'{% endif %}>
-                    <a href="{{site.baseurl}}/blog/">News</a>
-                </li>
                 <li {% if current[1] == 'jobs' %}class='active'{% endif %}>
                     <a href="{{site.baseurl}}/jobs/">Job Offers</a>
+                </li>
+                <li {% if current[1] == 'news' %}class='active'{% endif %}>
+                    <a href="{{site.baseurl}}/blog/">News</a>
                 </li>
                 <li {% if current[1] == 'contact' %}class='active'{% endif %}>
                     <a href="{{site.baseurl}}/contact/">Contact</a>
