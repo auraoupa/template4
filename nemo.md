@@ -7,6 +7,8 @@ permalink: /nemo/
 
 Our group has a longstanding experience in developping and using numerical software and geoscientific models alongside its research in oceanography. Over the past 15 years, we have been contributing actively to the development of NEMO, which is today, the main geoscientific model used in our group. We indeed believe that numerical software is key to advancing research in oceanography. This is why, we devote continuous efforts to supporting NEMO. 
 
+<img class="img-responsive img-centered" src="https://auraoupa.github.io/template4/assets/img/carousel/nemo.png" alt=""/>
+
 The  Nucleus for European Modelling of the Ocean [NEMO]((http://www.nemo-ocean.eu)) is an ocean modeling framework, distributed under CeCILL license, and used by a large community (with about ~100 registered projects and ~1000 registered users in 2015) for oceanographic research, operational oceanography, seasonal forecast and climate projections. Since 2008, its development is shared within a european consortium including CNRS (France), Mercator-Ocean (France), NERC (UK), Met Office (UK), CMCC (Italy) and INGV(Italy). 
 
 NEMO combines several modelling components, adapted to a wide range of applications. NEMO includes an ocean physics component (NEMO-OPA), an interactive sea-ice component (NEMO-LIM), and interactive Lagrangian iceberg component (NEMO-ICB), a transport component for ocean biogeochemistry (NEMO-TOP), a data-assimilation component (NEMO-TAM), a virtual observation component (NEMO-OBS) and an adaptative mesh-refinement component (AGRIF). 
