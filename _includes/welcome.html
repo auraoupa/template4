@@ -41,9 +41,9 @@
 
                             {% for post in site.posts %}
                                 <div class="list-item">
-                                    <h3 class="list-post-title">
-                                        <a href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a> - <em> <time>{{ post.date | date_to_string }}</time> </em>
-                                    </h3>
+                                    <h4 class="list-post-title">
+                                       <em> <time>{{ post.date | date_to_string }}</time> </em> - <a href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a> 
+                                    </h4>
                                 </div>
                             {% endfor %}
                             
