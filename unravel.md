@@ -10,6 +10,10 @@ permalink: /unravel/
 
 Overall, fine-scale dynamics is also key because the energy injected by winds in the large ocean circulation is fluxed through fine-scale processes on its way toward dissipation at smaller scale. Knowing how and and where energy is being exchanged in the ocean provides a key constrain for projecting the future evolution of the oceans. 
 
+<img class="img-responsive img-centered" src="https://auraoupa.github.io/template4/assets/img/meris_cover.png" alt=""/>
+*Figure 1 : Ocean color image in the Barents Sea, captured by the MERIS imager onboard Envisat (2002-2012). Source: ESA, http://envisat.esa.int.*
+
+
 Over the past 20 years, the combination of satellite remote sensing and ocean models have shown the ubiquity of ocean fine-scale processes and the key role they are playing in the climate machinery, but numerous essential key questions are still unanswered and fine-scale processes are still challenging to represent realistically in ocean models. Our group contributes to unravel the rich variety of ocean processes occuring at fine scales by *improving the representation of fine-scale dynamics in ocean models* and *developping innovative procedure for revealing the signature of fine scale dynamics in in-situ and satellite observations*. Because we believe in the complementarity of observational and modelling efforts we use realistics ocean models, as for instance our new North Atlantic 1/60° NEMO model configuration to study how observational new plateforms may inform about fine scale processes. 
 
 
