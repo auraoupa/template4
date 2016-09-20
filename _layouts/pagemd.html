@@ -15,10 +15,11 @@ layout: default
             <div class="panel-body">
                 <div class="row">
                     <div class="col-md-2">
-                        
-                            
+                        {% if page.prevtext %}
+                            Previous topic : <a href="{{site.baseurl}}/{{page.prevlink}}"> "{{page.prevtext}}" </a>
+                        {% endif %}
                     </div>
-                    <div class="col-md-9">
+                    <div class="col-md-8">
                         <h3 class="bio-heading"> </h3>
                         
 
@@ -28,6 +29,12 @@ layout: default
                             <p class="date"> <a href="{{page.link}}"> En savoir plus </a> </p>
                         {% endif %}
                     </div>
+                    <div class="col-md-2">
+                        {% if page.nextext %}
+                            Next topic : <a href="{{site.baseurl}}/{{page.nextlink}}"> "{{page.nextext}}" </a>
+                        {% endif %}
+                    </div>
+ 
                 </div>
             </div>
         

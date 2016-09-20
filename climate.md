@@ -2,6 +2,10 @@
 layout: pagemd
 title: Understanding the ocean role in the climate machinery
 permalink: /climate/
+prevtext: Contributing to a european modeling infrastructure
+prevlink: nemo
+nextext: Scientific software
+nextlink: code
 ---
 
 Ocean physical properties and their **ongoing changes due to anthropogenic influences** have huge consequences. Ocean circulation controls to a large extent ocean biomass and biogeochemical cycles, ocean acidification, ocean heat and carbon uptake and sequestration, and the patterns of regional sea level changes. 
@@ -14,10 +18,10 @@ These fine-scale eddies and narrow boundary currents are poorly observed and are
 <img class="img-responsive img-centered" src="https://auraoupa.github.io/template4/assets/img/DRAKKAR-ORCA12.png" alt=""/>
 *Figure 1 : Snapshot of the current speed …the 1/12° global ORCA12 model …*
 
-In the MEOM group, we tackle this question with comprehensive ocean circulation models. **Why a modelling approach?** Since observations at eddy scales are much too sparse to address these complex issues, high-resolution ocean simulations are the only possible way to proceed, but such an approach requires a consistent framework in which the scale interactions can be quantified, allowing a true assessment and improvement of the parameterizations in climate prediction models. 
+In the MEOM team, we tackle this question with comprehensive ocean circulation models. **Why a modelling approach?** Since observations at eddy scales are much too sparse to address these complex issues, high-resolution ocean simulations are the only possible way to proceed, but such an approach requires a consistent framework in which the scale interactions can be quantified, allowing a true assessment and improvement of the parameterizations in climate prediction models. 
 
 
-The **[DRAKKAR](https://www.drakkar-ocean.eu/)** simulation framework, made of a complete hierarchy of high-resolution global and basin-scale model configurations of the NEMO ocean general circulation model, is used to address this challenge. We are continuously improving the representation of the fine scale dynamics in the model. This simulation framework is then used to undertake **ambituous research projects** as for instance **[OCCIPUT](link)** ANR projet and **[SOBUMS](link)** ANR projet. 
+The **[DRAKKAR](https://www.drakkar-ocean.eu/)** simulation framework, made of a complete hierarchy of high-resolution global and basin-scale model configurations of the NEMO ocean general circulation model, is used to address this challenge. We are continuously improving the representation of fine scale dynamics in the model. This simulation framework is then used to undertake **ambituous research projects** as for instance **[OCCIPUT](link)** ANR projet and **[SOBUMS](link)** ANR/PRACE projet. 
 
 Among the questions that we adress, we in particular tackle the following issues : 
 
@@ -28,6 +32,6 @@ Among the questions that we adress, we in particular tackle the following issues
 scale circulation and its variability?
  - what fraction of the low-frequency oceanic variance is directly constrained by the
 **atmospheric forcing**?
- - Could the **integrated impacts of the submesoscale turbulence** on air-sea exchanges of
+ - How subsatantial are the **integrated impacts of the submesoscale turbulence** on air-sea exchanges of
 energy, on the upper ocean stratification, or on vertical fluxes of matter be substantial?
 
