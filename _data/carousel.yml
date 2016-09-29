@@ -20,10 +20,10 @@
   colorb : white
 
 - title : 
-  pic : assets/img/carousel/
-  picg : assets/img/carousel/
-  picm : assets/img/carousel/
-  pics : assets/img/carousel/
+  pic : assets/img/carousel/climate.png
+  picg : assets/img/carousel/climateg.png
+  picm : assets/img/carousel/climatem.png
+  pics : assets/img/carousel/climates.png
   text : Understanding the ocean role in the climate machinery
   link : climate
   colorf : white

@@ -15,9 +15,8 @@ layout: default
             <div class="panel-body">
                 <div class="row">
                     <div class="col-md-2">
-                        {% if page.prevtext %}
-                            <i class="fa fa-arrow-circle-left"> </i>
-                            Previous topic : <a href="{{site.baseurl}}/{{page.prevlink}}"> "{{page.prevtext}}" </a>
+                        {% if page.prevlink %}
+                             <a href="{{site.baseurl}}/{{page.prevlink}}"> <i class="fa fa-arrow-circle-left"> </i>   Previous topic   </a>
                         {% endif %}
                     </div>
                     <div class="col-md-8">
@@ -31,10 +30,9 @@ layout: default
                         {% endif %}
                     </div>
                     <div class="col-md-2">
-                        {% if page.nextext %}
+                        {% if page.nextlink %}
 
-                            Next topic : <i class="fa fa-arrow-circle-right"> </i>
-                            <a href="{{site.baseurl}}/{{page.nextlink}}"> "{{page.nextext}}" </a>
+                            <a href="{{site.baseurl}}/{{page.nextlink}}"> Next topic  <i class="fa fa-arrow-circle-right"> </i> </a>
                         {% endif %}
                     </div>
  
