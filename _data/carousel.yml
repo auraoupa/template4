@@ -30,16 +30,6 @@
   colorb : black
 
 - title : 
-  pic : assets/img/carousel/climate.png
-  picg : assets/img/carousel/climateg.png
-  picm : assets/img/carousel/climatem.png
-  pics : assets/img/carousel/climates.png
-  text : Spatial
-  link : spatial
-  colorf : white
-  colorb : black
-
-- title : 
   pic : assets/img/carousel/nemo.png
   picg : assets/img/carousel/nemog.png
   picm : assets/img/carousel/nemom.png
